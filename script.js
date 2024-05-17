@@ -48,7 +48,7 @@ function displayWeatherInfo(data) {
   tempDisplay.textContent = `${temp_c}°C`;
   tempDisplay.classList.add("tempDisplay");
   card.appendChild(tempDisplay);
-  humidityDisplay.textContent = `humidity: ${humidity}`;
+  humidityDisplay.textContent = `💧humidity: ${humidity}`;
   humidityDisplay.classList.add("humidityDisplay");
   card.appendChild(humidityDisplay);
   descDisplay.textContent = text;
