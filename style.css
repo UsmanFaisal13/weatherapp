@@ -70,3 +70,44 @@ h1{
     font-weight: bold;
     margin: 25px;
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .tempDisplay {
+        font-size: 2.5rem;
+    }
+    
+    .descDisplay {
+        font-size: 1.5rem;
+    }
+    
+    .humidityDisplay {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .tempDisplay {
+        font-size: 2rem;
+    }
+    
+    .descDisplay {
+        font-size: 1.2rem;
+    }
+    
+    .humidityDisplay {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        padding: 30px;
+    }
+}
