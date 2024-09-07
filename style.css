@@ -109,5 +109,6 @@ h1{
 
     .card {
         padding: 30px;
+        min-width:100px ;
     }
 }
