@@ -7,6 +7,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+      width: 100%;
+      height: 100%;
 }
 .weatherform{
     margin: 20px;
@@ -118,7 +120,6 @@ h1{
       margin-left: 10px;
     }
     body{
-      width: 100%;
-      height: 100%;
+    
     }
 }
