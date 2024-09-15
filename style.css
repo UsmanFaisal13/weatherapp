@@ -10,6 +10,13 @@ body{
       width: 100%;
       height: 100%;
 }
+main{
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .weatherform{
     margin: 20px;
 }
